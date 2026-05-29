@@ -12,11 +12,11 @@ function App() {
         
         <div style={{ background: '#10b981', color: 'white', padding: '20px', borderRadius: '8px', flex: 1 }}>
           <h3>Users</h3>
-          <p style={{ fontSize: '24px' }}>2,543</p>
+          <p style={{ fontSize: '24px' }}>2.2M,</p>
         </div>
         <div style={{ background: '#f59e0b', color: 'white', padding: '20px', borderRadius: '8px', flex: 1 }}>
           <h3>Orders</h3>
-          <p style={{ fontSize: '24px' }}>1,234</p>
+          <p style={{ fontSize: '24px' }}>1.2M</p>
         </div>
         
         
