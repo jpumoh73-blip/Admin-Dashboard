@@ -1,4 +1,5 @@
 import { useState } from "react";
+
  
 const productsData = [
   {id:1,name:"Air Force Sneakers Shoe",price:120,image:"/images/shoe.jpg"},
@@ -8,9 +9,9 @@ const productsData = [
   {id:5,name:"Nike T-Shirt",price:30,images:"/images/t-shirt.jpg"},
 ]
 
-const productsData = [ { id: 1, name: "Air Force Sneakers Shoe ", price: 120, category: "Shoes", image: "https://source.unsplash.com/400x400/?sneakers" }, { id: 2, name: "Classic Hoodie", price: 45, category: "Clothing", image: "https://source.unsplash.com/400x400/?hoodie" }, { id: 3, name: "Smart Watch", price: 99, category: "Gadgets", image: "https://source.unsplash.com/400x400/?smartwatch" }, { id: 4, name: "Wireless Headphones", price: 80, category: "Gadgets", image: "https://source.unsplash.com/400x400/?headphones" }, { id: 5, name: "Nike T-Shirt", price: 30, category: "Clothing", image: "https://source.unsplash.com/400x400/?tshirt" } ];
 
-export default function App() { export default function App() {
+
+export default function App() { 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
       <h1>🛍️ My Pro Shop</h1>
@@ -36,4 +37,4 @@ export default function App() { export default function App() {
       </div>
     </div>
   )
-} }
+} 
